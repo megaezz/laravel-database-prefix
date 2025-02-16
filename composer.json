@@ -1,6 +1,6 @@
 {
     "name": "megaezz/laravel-database-prefix",
-    "description": "Трейт для динамического указания префикса базы данных в моделях Eloquent.",
+    "description": "Trait to add database prefix to eloquent models.",
     "type": "library",
     "license": "MIT",
     "authors": [
