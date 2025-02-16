@@ -1,0 +1,19 @@
+{
+    "name": "megaezz/laravel-database-prefix",
+    "description": "Трейт для динамического указания префикса базы данных в моделях Eloquent.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Кирилл",
+            "email": "megaezh@me.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Megaezz\\LaravelDatabasePrefix\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
