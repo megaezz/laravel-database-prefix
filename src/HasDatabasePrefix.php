@@ -8,6 +8,8 @@ trait HasDatabasePrefix
     {
         if (isset($this->database)) {
             $this->table = $this->database . '.' . $this->getTable();
+        } else {
+            $this->table = $this->getConnection()->getDatabaseName() . '.' . $this->getTable();
         }
 
         parent::__construct($attributes);
